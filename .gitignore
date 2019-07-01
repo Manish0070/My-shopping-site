@@ -1,3 +1,30 @@
 # Include your project-specific ignores in this file
 # Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
 # Useful .gitignore templates: https://github.com/github/gitignore
+######################
+# SASS
+######################
+.sass-cache/
+######################
+# Visual Studio Code
+######################
+.vscode/
+######################
+/log/
+/target/
+######################
+# Directories
+######################
+/bin/
+/deploy/
+######################
+# Logs
+######################
+*.log
+######################
+# Others
+######################
+*.class
+*.*~
+*~
+.merge_file*
